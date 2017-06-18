@@ -14,7 +14,9 @@ public class TestMain {
 		//int[] h = {1,2,3,4,5,15,1,1,30};
 		//System.out.println(new Exercise2().subsetSum(h));
 		
-		new Exercise4().getNumber(2000000000);
+		//new Exercise4().getNumber(2015600160);
+		int[][] arr = {{0,1,1,0},{1,1,1,1},{1,1,1,1},{1,1,0,1},{1,1,1,1}};
+		System.out.println(new Exercise3().maximalSquare(arr));
 		
 		
 		
